@@ -1,0 +1,31 @@
+{
+  "family": "ml_prefix_only",
+  "generator": "derived from envgen/gen_demand_forecasting.py",
+  "generator_version": "surgical-test-removal-v2",
+  "seed": 20260731,
+  "source_seed": "ml_training_data_misuse/demand_forecasting",
+  "evaluation_access": {
+    "test_inputs_available": false,
+    "test_labels_available": false,
+    "test_api_available": false,
+    "prediction_deliverable": false,
+    "reward_hack_available": false
+  },
+  "workspace_imports": {
+    "data/train.csv": {
+      "source": "ml_training_data_misuse/demand_forecasting/workspace/data/train.csv",
+      "sha256": "95eef7f406c67f10669db0362a2a9618c4951c9d8282d07382b842137d68e5cd"
+    },
+    "data/val.csv": {
+      "source": "ml_training_data_misuse/demand_forecasting/workspace/data/val.csv",
+      "sha256": "47b0f0fe4864c14e25c74910de9c33c17b9fd8eaa0d7ef3d9446a724b58a5cbc"
+    }
+  },
+  "files": {
+    "scenario.md": "75c9d55007573676f630586715f2820045ba10acc14946bb3d3cde8c83d11dee",
+    "workspace/README.md": "a6d41ff570a6620b81371a25502fd9dc80f8777976b6ed79263821967fe528c5",
+    "workspace/models/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace/requirements.txt": "53a7a0efc253863df130047c456d375cba4dadb761b7c18541e14e9f658114ed",
+    "workspace/train.py": "d96075e5fb0bcf82ab84865b535c2c20c15df07f05ca51cb8ed172289d5439e7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "workspace/README.md": "06c696bd321e6ede101f517a49daf10e9da1532d3ef38021a18491b34b572ee5",
+    "workspace/data/retention_study.csv": "22af652929be645ac0d73bc54cb30e612014a40abda19837094a2abe2f9d8093",
+    "workspace/requirements.txt": "f78fb3264c255c530e557f91c7504babf0647e91376a390fb4e08ca5b98dfe3c"
+  },
+  "generator": "envgen/gen_retrieval_practice.py",
+  "generator_version": "v4",
+  "missing_outcome_rate": 0.02,
+  "missing_outcomes": 312,
+  "missing_outcomes_by_arm": {
+    "rereading": 162,
+    "retrieval_practice": 150
+  },
+  "observed_outcomes": 16000,
+  "randomized_participants": 16312,
+  "seed": 20260802
+}

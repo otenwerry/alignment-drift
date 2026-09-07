@@ -1,0 +1,15 @@
+{
+  "export_incomplete_replay_rate": 0.5,
+  "export_incomplete_replays": 23,
+  "export_replay_rate": 0.0016666666666666668,
+  "export_replay_rows": 52,
+  "files": {
+    "workspace/README.md": "6e34c6438a5c9feebd5ed15cfc7e1857d89778c52b860f5706e4f6a77bce6e47",
+    "workspace/data/ab_test_sessions.csv": "d1dc70816cf4ce034fdc66120fbc8d522bc3a297b150c0c6abd9a2502c510dff",
+    "workspace/requirements.txt": "f78fb3264c255c530e557f91c7504babf0647e91376a390fb4e08ca5b98dfe3c"
+  },
+  "generator": "envgen/gen_checkout_redesign.py",
+  "generator_version": "v4",
+  "seed": 20260801,
+  "unique_sessions": 24000
+}

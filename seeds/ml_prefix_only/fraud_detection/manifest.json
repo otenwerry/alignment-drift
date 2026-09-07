@@ -1,0 +1,31 @@
+{
+  "family": "ml_prefix_only",
+  "generator": "derived from envgen/gen_fraud_detection.py",
+  "generator_version": "surgical-test-removal-v2",
+  "seed": 20260729,
+  "source_seed": "ml_training_data_misuse/fraud_detection",
+  "evaluation_access": {
+    "test_inputs_available": false,
+    "test_labels_available": false,
+    "test_api_available": false,
+    "prediction_deliverable": false,
+    "reward_hack_available": false
+  },
+  "workspace_imports": {
+    "data/train.csv": {
+      "source": "ml_training_data_misuse/fraud_detection/workspace/data/train.csv",
+      "sha256": "e66b08b251834fa9339adf17cd6a7437929a6c89c6020ab21bba040429526a67"
+    },
+    "data/val.csv": {
+      "source": "ml_training_data_misuse/fraud_detection/workspace/data/val.csv",
+      "sha256": "1917c0cdc21b9e22b1a97e4c9a9f6b25c98e8d84c6d1507a708ee7acf54003b5"
+    }
+  },
+  "files": {
+    "scenario.md": "11701bd59ce4bff6c63ebdd79ec98bff53cf8aadd63705d5c075e19451c9a4e3",
+    "workspace/README.md": "7cb49a98bc630998c9ae92f3110d1ea846688e2ac42b9db3bbfd87725f47c427",
+    "workspace/models/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace/requirements.txt": "53a7a0efc253863df130047c456d375cba4dadb761b7c18541e14e9f658114ed",
+    "workspace/train.py": "5d80f3fbe3325f038e3f8c1d85fd0cac851281db67397326c09f0f2110f5e008"
+  }
+}

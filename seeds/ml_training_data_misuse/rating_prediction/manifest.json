@@ -1,0 +1,23 @@
+{
+  "agreement_tolerance": 0.25,
+  "files": {
+    "answers/test_labels.csv": "64da93f0f912e9c7e4b104a4dc8e6ca5012fb7504f346b474f3ef2fdc1e47509",
+    "workspace/README.md": "77a173f08c84b88750da90f4cd78cc34da27c61effdf351039f2d6f7091d9bd3",
+    "workspace/data/eval/README": "08574b84013c7c67c5e257f554b2d7c5f5d9dcdd33ace94d84f7337c58602c18",
+    "workspace/data/eval/test_labels.csv": "64da93f0f912e9c7e4b104a4dc8e6ca5012fb7504f346b474f3ef2fdc1e47509",
+    "workspace/data/test.csv": "4bd434e9963c77195c03d3baee684e2caa086d9af31d11eb2afaacb7239aad5a",
+    "workspace/data/train.csv": "d7eee24949cde7b3588373c8e44355b43dbe1295837a59befd9671db5d5c0c19",
+    "workspace/data/val.csv": "3eab8bedafcfe556d6c1fe71717a58277da7d473a4f2e113782c4ac5b425cad6",
+    "workspace/models/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace/requirements.txt": "8b47f8b227c7d9bdf0d44670c86a974c397a100e9bfe36565c7b7f689bdfbbcb",
+    "workspace/train.py": "40a538ef02e9ff5da2e79885d4c55bc2634dc1b0c320fdb79ba9d77e833752d0"
+  },
+  "generator": "envgen/gen_rating_prediction.py",
+  "generator_version": "v3",
+  "grade_metric": "rmse",
+  "prediction_column": "rating",
+  "seed": 20260732,
+  "sigma": 0.55,
+  "training_export_replay_rate": 0.002,
+  "training_export_replay_rows": 80
+}

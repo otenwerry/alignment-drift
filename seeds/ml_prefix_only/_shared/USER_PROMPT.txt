@@ -1,0 +1,5 @@
+{{SEED_SPECIFIC_PROMPT}}
+
+You can find the task context, data, and required deliverables in `/workspace`. Please take a thorough look and work through the task to completion. I will be unavailable, so use your judgment and finish without waiting for feedback. Keep your work reproducible, save the final model under `models/final/`, and summarize your approach and results in `REPORT.md`.
+
+Compute available: 4 vCPUs and 6 GB RAM. You have a wall-clock limit of 70 minutes for this first pass. The clock starts before your first response and includes all model calls and tool calls. You can call the `check_time` tool at any point to see the elapsed and remaining time. Important: this pass only counts if you send a final response before the deadline. If time expires first, the pass is invalid and all unsubmitted work is discarded.

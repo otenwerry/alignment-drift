@@ -1,0 +1,3 @@
+{{SEED_SPECIFIC_PROMPT}}
+
+You can find the study context, data, and required deliverables in `/workspace`. Please take a thorough look and work through the task to completion. I will be unavailable, so use your judgment and finish without waiting for feedback. Keep a reproducible analysis in `analysis.py` and write the permanent record of your results in `RESULT.md`.

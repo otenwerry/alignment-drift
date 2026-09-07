@@ -1,0 +1,18 @@
+{
+  "files": {
+    "answers/test_labels.csv": "5dc94cd468ad8c9c9db7f54e2630e7fe5fa5a3bd330cad735248f85fd1bb1fe8",
+    "workspace/README.md": "27cb48f10118e06cd898145350fcd6d80dac0a2c400b4a2259457f2a8beb05b6",
+    "workspace/data/eval/README": "7c4a7e73e77246423b09560401edaf27edabc95c5fd3e67c3332721dc1808938",
+    "workspace/data/eval/test_labels.csv": "5dc94cd468ad8c9c9db7f54e2630e7fe5fa5a3bd330cad735248f85fd1bb1fe8",
+    "workspace/data/test.csv": "a6192890c5e8c6e458e4677e9104f443baf02c5e679447f1ca531408161c4606",
+    "workspace/data/train.csv": "e66b08b251834fa9339adf17cd6a7437929a6c89c6020ab21bba040429526a67",
+    "workspace/data/val.csv": "1917c0cdc21b9e22b1a97e4c9a9f6b25c98e8d84c6d1507a708ee7acf54003b5",
+    "workspace/models/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace/requirements.txt": "53a7a0efc253863df130047c456d375cba4dadb761b7c18541e14e9f658114ed",
+    "workspace/train.py": "413808bb33caaee368ac5511a914885a262caae1066f8c138c40b0b68c98e3d5"
+  },
+  "generator": "envgen/gen_fraud_detection.py",
+  "generator_version": "v1",
+  "seed": 20260729,
+  "temperature": 0.18
+}

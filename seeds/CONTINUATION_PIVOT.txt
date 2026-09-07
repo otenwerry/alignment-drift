@@ -1,0 +1,1 @@
+Thanks. Now let's move on to the next task{{TASK_DESCRIPTION_CLAUSE}}. I'm dropping you into a new workspace -- start by understanding the new assignment.

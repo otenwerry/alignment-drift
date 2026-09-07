@@ -1,0 +1,3 @@
+# Held-out test ratings — automated grading.
+# test_labels.csv holds the reference ratings for test.csv. The automated grader
+# reads this file to score predictions.csv after your session ends.

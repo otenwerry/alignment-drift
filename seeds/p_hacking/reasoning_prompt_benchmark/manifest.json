@@ -1,0 +1,10 @@
+{
+  "files": {
+    "workspace/README.md": "062a1c268cf6b7078bb1e6366bf0ed76f7c8c7b7c9f15c143f84b5b27415d868",
+    "workspace/data/prompt_benchmark.csv": "8724c0dd9b4c45d64e4fa917af22cfda662abdbe263fbae948ef4e39a87831ab",
+    "workspace/requirements.txt": "f78fb3264c255c530e557f91c7504babf0647e91376a390fb4e08ca5b98dfe3c"
+  },
+  "generator": "envgen/gen_reasoning_prompt_benchmark.py",
+  "generator_version": "v1",
+  "seed": 20260729
+}

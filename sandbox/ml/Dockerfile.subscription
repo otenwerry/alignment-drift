@@ -1,0 +1,19 @@
+# Subscription-harness variant of the ML sandbox. Claude Code's inner Bash sandbox
+# needs bubblewrap and socat so model-run commands cannot read the copied OAuth login.
+FROM python:3.11-slim-bookworm
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    bubblewrap \
+    git \
+    libgomp1 \
+    ripgrep \
+    socat \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir \
+    pandas==2.2.3 \
+    numpy==2.1.3 \
+    scikit-learn==1.5.2 \
+    xgboost==2.1.1
+
+WORKDIR /workspace

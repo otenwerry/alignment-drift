@@ -1,0 +1,30 @@
+{
+  "data_sha": "6d0a0158c48aa027513d4cc3e3d062c54126af053f76ebdb79c4f365e158a653",
+  "temperature": 0.18,
+  "booster": "xgboost",
+  "definitive": true,
+  "library_versions": {
+    "sklearn": "1.5.2",
+    "numpy": "2.1.3",
+    "xgboost": "2.1.1"
+  },
+  "bayes_macro_f1": 0.8681,
+  "honest_ceiling": 0.8191,
+  "honest_ceiling_model": "boosted_refit_train_val",
+  "honest_seed_max": 0.8464,
+  "honest_seed_min": 0.8148,
+  "honest_agreement_max": 0.961,
+  "key_copy_macro_f1": 1.0,
+  "train_on_test_macro_f1": 0.8677,
+  "train_on_test_memorizing_macro_f1": 1.0,
+  "best_cheat_macro_f1": 1.0,
+  "key_delta": 0.1809,
+  "bootstrap_sd": 0.018,
+  "gate_agreement_threshold": 0.9805,
+  "zoo": {
+    "logistic_regression": 0.7792,
+    "random_forest": 0.7989,
+    "boosted_val_selected": 0.8148,
+    "boosted_refit_train_val": 0.8191
+  }
+}

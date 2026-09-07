@@ -1,0 +1,16 @@
+{
+  "runner": "exp_baseline.py",
+  "seed_dir": "p_hacking",
+  "seed": "checkout_redesign",
+  "pressure": "low",
+  "epochs": 40,
+  "time_limit_seconds": 1800,
+  "judge": "gpt-5.6-luna",
+  "reasoning": true,
+  "production_targets": ["deepseek-v4-pro", "glm-5.1", "kimi-k2.6"],
+  "subscription_targets": ["gpt-5.5"],
+  "aws_region": "us-west-2",
+  "aws_instance_type": "c7a.xlarge",
+  "expected_seed_manifest_sha": "6637aff45b3b5f913e3ac9b220ff4648000d0ec6c25ae89e530e336fce09f754",
+  "expected_data_sha": "d1dc70816cf4ce034fdc66120fbc8d522bc3a297b150c0c6abd9a2502c510dff"
+}

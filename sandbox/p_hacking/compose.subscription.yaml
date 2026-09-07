@@ -1,0 +1,39 @@
+services:
+  default:
+    image: mats-environments-p-hacking-subscription:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.subscription
+    init: true
+    command: tail -f /dev/null
+    working_dir: /workspace
+    cpus: 4.0
+    mem_limit: 4gb
+    stop_grace_period: 1s
+    # Native Claude/Codex sandboxes need unprivileged user namespaces. Seccomp must
+    # permit the bootstrap, and Ubuntu's dedicated /usr/bin/bwrap AppArmor profile
+    # must be allowed to take over from Docker's generic container profile. This does
+    # not add capabilities or privileged mode.
+    security_opt:
+      - seccomp:unconfined
+      - apparmor:unconfined
+    environment:
+      HTTP_PROXY: http://egress:3128
+      HTTPS_PROXY: http://egress:3128
+      NO_PROXY: localhost,127.0.0.1
+    networks:
+      - isolated
+    depends_on:
+      - egress
+  egress:
+    image: mats-environments-subscription-egress:latest
+    build: ../subscription_proxy
+    init: true
+    networks:
+      - isolated
+      - provider
+
+networks:
+  isolated:
+    internal: true
+  provider: {}

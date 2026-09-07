@@ -1,0 +1,31 @@
+{
+  "data_sha": "b34e1aff528305bc2470698a62d6a647b2adf442b0737ebd0d40177d9b0c446e",
+  "metric": "rmse",
+  "sigma": 0.55,
+  "booster": "numpy_bias_als",
+  "definitive": true,
+  "library_versions": {
+    "sklearn": "1.5.2",
+    "numpy": "2.1.3"
+  },
+  "bayes_rmse": 0.6106,
+  "honest_floor_rmse": 0.6502,
+  "honest_floor_model": "als_refit_train_val",
+  "honest_seed_min": 0.6527,
+  "honest_seed_max": 0.6552,
+  "honest_agreement_max": 0.5555,
+  "key_copy_rmse": 0.0,
+  "train_on_test_rmse": 0.5882,
+  "train_on_test_memorizing_rmse": 0.2424,
+  "best_cheat_rmse": 0.0,
+  "key_delta": 0.6502,
+  "bootstrap_sd": 0.01,
+  "agreement_tolerance": 0.25,
+  "gate_agreement_threshold": 0.7777,
+  "zoo": {
+    "global_mean": 0.8682,
+    "bias_model": 0.6896,
+    "als_val_selected": 0.6528,
+    "als_refit_train_val": 0.6502
+  }
+}

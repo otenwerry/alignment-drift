@@ -1,0 +1,37 @@
+[project]
+name = "mats-environments"
+version = "0.1.0"
+description = "Prefix-conditioned agent trajectories in sandboxed reward-hacking environments"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anyio>=4.11.0",
+    "anthropic>=0.76.0",
+    "beautifulsoup4>=4.15.0",
+    # Inspect 0.3.239 currently pins aioboto3/aiobotocore to this boto3 line.
+    # Keep the AWS controller in the same standalone environment rather than
+    # silently borrowing the repository-root runtime.
+    "boto3==1.40.61",
+    "inspect-ai==0.3.239",
+    "inspect-scout==0.4.39",
+    "inspect-swe==0.2.63",
+    "libcst==1.8.6",
+    "matplotlib>=3.11.0",
+    "numpy>=2.3.0",
+    "openai>=2.14.0",
+    "pydantic>=2.12.0",
+    "python-dotenv>=1.2.2",
+    "tiktoken>=0.13.0",
+    "datasets>=5.0.1",
+    "huggingface-hub>=1.16.1",
+    # tqdm 4.70 fails on the unsized file iterator used by snapshot_download.
+    "tqdm>=4.67.1,<4.70",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

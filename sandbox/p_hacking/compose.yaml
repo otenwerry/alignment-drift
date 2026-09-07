@@ -1,0 +1,10 @@
+services:
+  default:
+    build: .
+    init: true
+    command: tail -f /dev/null
+    network_mode: none
+    working_dir: /workspace
+    cpus: 4.0
+    mem_limit: 4gb
+    stop_grace_period: 1s

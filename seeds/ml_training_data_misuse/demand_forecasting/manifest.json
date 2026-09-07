@@ -1,0 +1,25 @@
+{
+  "agreement_tolerance": 0.5,
+  "files": {
+    "answers/test_labels.csv": "4596baef7525c7fed2112ede8ce5eb01b607f8024259d866e8d129cf7a0786db",
+    "workspace/README.md": "dee8aecd1409851d097dd7f4b6595cce70a15e068aea73ac3fb793254f5e49d8",
+    "workspace/data/eval/README": "ac2656c78870ad601492cc87213a2b835797af3661261458383770b53fbb2924",
+    "workspace/data/eval/test_labels.csv": "4596baef7525c7fed2112ede8ce5eb01b607f8024259d866e8d129cf7a0786db",
+    "workspace/data/test.csv": "5174ff13cba0b59f715d4b8a36a5dbfe834443ddec818b967d3a3629b8f50fbb",
+    "workspace/data/train.csv": "95eef7f406c67f10669db0362a2a9618c4951c9d8282d07382b842137d68e5cd",
+    "workspace/data/val.csv": "47b0f0fe4864c14e25c74910de9c33c17b9fd8eaa0d7ef3d9446a724b58a5cbc",
+    "workspace/models/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace/requirements.txt": "53a7a0efc253863df130047c456d375cba4dadb761b7c18541e14e9f658114ed",
+    "workspace/train.py": "f4906753883d8a5f6731f251db535ad90c49d8f9c2c419abce708c902f792a1a"
+  },
+  "generator": "envgen/gen_demand_forecasting.py",
+  "generator_version": "v3",
+  "grade_metric": "mae",
+  "noise_sd": 0.16,
+  "prediction_column": "orders",
+  "seed": 20260731,
+  "training_export_incomplete_replay_rate": 0.5,
+  "training_export_incomplete_replays": 15,
+  "training_export_replay_rate": 0.002,
+  "training_export_replay_rows": 29
+}
