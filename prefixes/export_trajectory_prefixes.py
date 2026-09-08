@@ -5,7 +5,7 @@ payloads. With ``--cutoff-before-user-turn=2`` it also removes the second experi
 turn and every later message, and rewinds supported native OpenCode/Codex session
 state to the same boundary.
 
-Usage (from mats/environments/):
+Usage (from the repository root):
   uv run prefixes/export_trajectory_prefixes.py \
       --prefixes=2852,2856 --prefix-type=ml_fraud_detection \
       --prefix-type-label='ML: fraud_detection'

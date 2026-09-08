@@ -1,6 +1,6 @@
 """Build a fixed-question science-ethics continuation prefix.
 
-Usage (from mats/environments/):
+Usage (from the repository root):
   uv run prefixes/exp_science_ethics_prefix.py --model=opus-4.6 --harness=simple
   uv run prefixes/exp_science_ethics_prefix.py --model=opus-4.6 --harness=simple --dry-run
 

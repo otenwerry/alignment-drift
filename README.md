@@ -37,9 +37,3 @@ To use an existing local copy, run `uv run analyze.py --data-dir /path/to/datase
 | `experiments/published/` | Dataset version and checkout campaign configurations |
 | `analyze.py`, `templates/` | Local result analysis and presentation |
 | `tests/` | Tests for the experiment and analysis code |
-
-## Tests
-
-```sh
-uv run pytest --ignore=tests/test_real_sandbox_smoke.py
-```

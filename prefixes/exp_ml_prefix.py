@@ -7,7 +7,7 @@ AWS runs use the shared one-trajectory-per-VM campaign, resume, and retry machin
 Missing task deliverables are preserved in a payload marked continuation-ineligible by
 default; continuation runs can opt in explicitly when task failure is the treatment.
 
-Usage (from mats/environments/):
+Usage (from the repository root):
   uv run prefixes/exp_ml_prefix.py --targets=deepseek-v4-pro,glm-5.1,kimi-k2.6 \
       --seeds=fraud_detection --epochs=10 --harness=production --compute=aws
   uv run prefixes/exp_ml_prefix.py --targets=gpt-5.5 --seeds=fraud_detection \

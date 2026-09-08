@@ -15,7 +15,7 @@ command three times asks the same questions in the same order and yields three
 different prefixes (the model's answers vary), each written to its own
 content-addressed file.
 
-Usage (from mats/environments/):
+Usage (from the repository root):
   uv run prefixes/exp_nq_prefix.py --model=qwen3-32b --tokens=30000 --harness=simple
   uv run prefixes/exp_nq_prefix.py --model=qwen3-32b --tokens=30000 \
       --harness=production --dry-run   # FREE

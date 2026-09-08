@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Verify the persisted Codex ChatGPT credential, optionally with a live call.
 
-Usage (from mats/environments):
+Usage (from the repository root):
 
     uv run tools/check_codex_subscription_auth.py
     uv run tools/check_codex_subscription_auth.py --live

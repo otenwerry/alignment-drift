@@ -6,7 +6,7 @@ no workspace file, and no native session state. Production and subscription
 continuations therefore start fresh and deliver the text directly in the opening
 user context.
 
-Usage (from mats/environments/):
+Usage (from the repository root):
   uv run prefixes/build_activity_log_prefixes.py --trajectories=711,715,723
   uv run prefixes/build_activity_log_prefixes.py \
       --source-prefix-files='data/runs/continuation_prefixes/run-*.json'

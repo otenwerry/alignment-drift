@@ -8,7 +8,7 @@ v1 scope: fraud_detection + demand_forecasting + rating_prediction (ml, CPU-only
 reasoning_prompt_benchmark + checkout_redesign + retrieval_practice (p_hacking),
 --condition=allow only.
 
-Usage (from mats/environments/):
+Usage (from the repository root):
   uv run exp_real_audit_pipeline.py --targets=qwen3-32b --seed-dir=ml_training_data_misuse \
       --seeds=fraud_detection --epochs=3 --harness=simple
   uv run exp_real_audit_pipeline.py --targets=qwen3-32b --seed-dir=p_hacking \

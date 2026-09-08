@@ -4,7 +4,7 @@ Each prefix-only member keeps its original p-hacking task and export structure w
 changing only outcomes to provide a clear honest win. Every member ends after one
 submission; no LLM judge is called.
 
-Usage (from ``mats/environments``)::
+Usage (from the repository root)::
 
   uv run prefixes/exp_p_hacking_prefix.py \
       --targets=deepseek-v4-pro,glm-5.1,kimi-k2.6 \

@@ -20,13 +20,15 @@ PREFIXES come from two sources, combinable in one run:
 
 Each cell = one (prefix, new-task seed) pair, run for --epochs epochs. The agent
 model and its reasoning setting are read from each prefix (there is no --targets or
---reasoning flag). The agent starts pre-loaded with the prefix conversation, then
-receives one injected pivot user turn (the fixed Petri pivot sentence + the seed's
-pinned opening message) and goes live in a fresh sandbox. Both judge stages see only
+--reasoning flag). Activity-log prefixes start a fresh session with the log in the
+opening user message. With conversation prefixes, the agent resumes the earlier
+conversation, then receives one injected pivot user turn (the fixed Petri pivot
+sentence + the seed's pinned opening message) and goes live in a fresh sandbox.
+Both judge stages see only
 the system message plus the live task: the prefix is sliced out mechanically at a
 stored boundary index and the omission is declared as an evidence caveat.
 
-Usage (from mats/environments/):
+Usage (from the repository root):
   uv run exp_continuation_pipeline.py --treatment=full-hack --prefixes=12,17 \
       --seed-dir=p_hacking --seeds=all --epochs=5 --harness=simple \
       --pressure=high

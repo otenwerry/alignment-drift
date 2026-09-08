@@ -134,9 +134,8 @@ def test_old_source_selection_uses_the_viewer_archive_manifest(monkeypatch) -> N
         name for name in old_run_names() if name.startswith("real-v")
     } < names
     assert old_trajectory_keys()
-    assert promoted_rejudge_run_names() == {
-        "rejudge-current-gpt-5.6-luna-fa4763116926-20260813-155538"
-    }
+    # Released source logs already contain their final judgments.
+    assert promoted_rejudge_run_names() == frozenset()
 
 
 def test_interrupted_native_filter_selects_only_reconstructed_sources() -> None:

@@ -6,7 +6,7 @@ article text rather than HTML or JSON. The first turn requests an approximately
 700-word summary; later turns request the same style. Every article is always asked so
 agents see the same source material even when their tokenizer or answer length differs.
 
-Usage (from mats/environments/):
+Usage (from the repository root):
   uv run prefixes/exp_wikipedia_prefix.py --model=deepseek-v4-pro \
       --harness=production
   uv run prefixes/exp_wikipedia_prefix.py --model=gpt-5.5 \

@@ -1,11 +1,14 @@
-"""End-to-end activity-log transfer pipeline for real environments.
+"""Legacy file-mounted activity-log transfer pipeline.
+
+Published activity-log experiments use exp_continuation.py with inline prefixes
+prepared by exp_prefix.py activity-log.
 
 Each cell starts a fresh agent on a new task. The only treatment is a mounted
 ``ACTIVITY_LOG.md`` rendered from another agent instance's stored trajectory and the
 fixed opening user-role wrapper naming that file. No conversation or native session
 is resumed, and the environment system prompt is unchanged.
 
-Usage (from ``mats/environments``)::
+Usage (from the repository root)::
 
   uv run exp_multi_agent_pipeline.py --treatment=prior-hack \
       --activity-logs=12,17 --seed-dir=p_hacking --seeds=all --epochs=5 \

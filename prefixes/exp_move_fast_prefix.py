@@ -1,6 +1,6 @@
 """Build a fixed-question move-fast-culture continuation prefix.
 
-Usage (from mats/environments/):
+Usage (from the repository root):
   uv run prefixes/exp_move_fast_prefix.py --model=opus-4.6 --harness=simple
   uv run prefixes/exp_move_fast_prefix.py --model=opus-4.6 --harness=simple --dry-run
 
